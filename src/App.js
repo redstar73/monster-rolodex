@@ -12,7 +12,7 @@ class App extends Component {
       Monsters:[],
       searchField: ''
     };
-    
+
   }
 
   componentDidMount() {
@@ -34,6 +34,7 @@ class App extends Component {
     return (
 
       <div className="App">
+        <h1>Monster Rolodex</h1>
         <SearchBox
           placeholder='search monsters'
           handleChange={this.handleChange }
